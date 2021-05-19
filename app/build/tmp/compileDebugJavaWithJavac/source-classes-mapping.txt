@@ -1,0 +1,10 @@
+ru/adelbergis/secondapp/BuildConfig.java
+ ru.adelbergis.secondapp.BuildConfig
+ru/adelbergis/secondapp/ItemActivity.java
+ ru.adelbergis.secondapp.ItemActivity
+ru/adelbergis/secondapp/Users.java
+ ru.adelbergis.secondapp.Users
+ru/adelbergis/secondapp/MainActivity.java
+ ru.adelbergis.secondapp.MainActivity
+ ru.adelbergis.secondapp.MainActivity$UserAdapter
+ ru.adelbergis.secondapp.MainActivity$UserHolder
