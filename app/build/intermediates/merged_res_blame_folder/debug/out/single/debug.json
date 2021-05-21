@@ -12,6 +12,10 @@
         "source": "/Users/andrejberg/AndroidStudioProjects/secondApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/andrejberg/AndroidStudioProjects/secondApp/app/build/intermediates/res/merged/debug/layout_activity_add_user.xml.flat",
+        "source": "/Users/andrejberg/AndroidStudioProjects/secondApp/app/src/main/res/layout/activity_add_user.xml"
+    },
+    {
         "merged": "/Users/andrejberg/AndroidStudioProjects/secondApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/andrejberg/AndroidStudioProjects/secondApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
