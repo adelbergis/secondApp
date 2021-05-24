@@ -1809,6 +1809,7 @@ int id decelerate 0x7f08007a
 int id decelerateAndComplete 0x7f08007b
 int id decor_content_parent 0x7f08007c
 int id default_activity_button 0x7f08007d
+int id deletedUserBtn 0x7f0801a3
 int id deltaRelative 0x7f08007e
 int id dependency_ordering 0x7f08007f
 int id design_bottom_sheet 0x7f080080
@@ -2164,6 +2165,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_add_user 0x7f0b001c
 int layout activity_item 0x7f0b001d
 int layout activity_main 0x7f0b001e
+int layout activity_user 0x7f0b0071
 int layout custom_dialog 0x7f0b001f
 int layout design_bottom_navigation_item 0x7f0b0020
 int layout design_bottom_sheet_dialog 0x7f0b0021

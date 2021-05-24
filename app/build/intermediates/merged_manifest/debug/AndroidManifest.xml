@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SecondApp" >
+        <activity android:name="ru.adelbergis.secondapp.UserActivity" />
         <activity android:name="ru.adelbergis.secondapp.AddUserActivity" />
         <activity android:name="ru.adelbergis.secondapp.ItemActivity" />
         <activity android:name="ru.adelbergis.secondapp.MainActivity" >

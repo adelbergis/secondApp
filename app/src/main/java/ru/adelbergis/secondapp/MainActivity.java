@@ -19,6 +19,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.navigation.NavigationView;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import static androidx.recyclerview.widget.DiffUtil.DiffResult.NO_POSITION;
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     UserAdapter userAdapter;
     Button addUser;
+    List<String> userList;
 
 
     @Override
@@ -56,7 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void recyclewViewInit() {
         Users users = Users.get(MainActivity.this);
-        List userList = users.getUserList();
+        HashMap userHashMapList = users.getUserList();
+        userList = new ArrayList<String>();
+        userHashMapList.forEach((k,v) -> userList.add(v.toString()));
         userAdapter = new UserAdapter(userList);
         recyclerView.setAdapter(userAdapter);
     }
@@ -77,10 +82,13 @@ public class MainActivity extends AppCompatActivity {
             itemTextView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Bundle bundle=new Bundle();
-                    bundle.putString("position", String.valueOf(getPosition()));
-                    MyDialogFragment dialogFragment = new MyDialogFragment(MainActivity.this);
-                    dialogFragment.onCreateDialog(bundle).show();
+//                    Bundle bundle=new Bundle();
+//                    bundle.putString("userName", userList.get((getPosition())));
+//                    MyDialogFragment dialogFragment = new MyDialogFragment(MainActivity.this);
+//                    dialogFragment.onCreateDialog(bundle).show();
+                    Intent intent = new Intent(MainActivity.this,UserActivity.class);
+                    intent.putExtra("user",userList.get((getPosition())));
+                    startActivity(intent);
                     //Toast.makeText(MainActivity.this,"cliked" + getPosition(),Toast.LENGTH_SHORT).show();
                 }
             });

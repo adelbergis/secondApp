@@ -1810,6 +1810,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deletedUserBtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2165,6 +2166,7 @@ layout abc_tooltip
 layout activity_add_user
 layout activity_item
 layout activity_main
+layout activity_user
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

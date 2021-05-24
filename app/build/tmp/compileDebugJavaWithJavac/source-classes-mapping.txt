@@ -1,27 +1,31 @@
 ru/adelbergis/secondapp/BuildConfig.java
  ru.adelbergis.secondapp.BuildConfig
+ru/adelbergis/secondapp/Users.java
+ ru.adelbergis.secondapp.Users
 ru/adelbergis/secondapp/ItemActivity.java
  ru.adelbergis.secondapp.ItemActivity
 ru/adelbergis/secondapp/UserCursorWrapper.java
  ru.adelbergis.secondapp.UserCursorWrapper
-ru/adelbergis/secondapp/AddUserActivity.java
- ru.adelbergis.secondapp.AddUserActivity
- ru.adelbergis.secondapp.AddUserActivity$1
-ru/adelbergis/secondapp/User.java
- ru.adelbergis.secondapp.User
 ru/adelbergis/secondapp/database/UserBaseHelper.java
  ru.adelbergis.secondapp.database.UserBaseHelper
-ru/adelbergis/secondapp/database/UserDbSchema.java
- ru.adelbergis.secondapp.database.UserDbSchema
- ru.adelbergis.secondapp.database.UserDbSchema$UserTable
- ru.adelbergis.secondapp.database.UserDbSchema$UserTable$Cols
-ru/adelbergis/secondapp/Users.java
- ru.adelbergis.secondapp.Users
 ru/adelbergis/secondapp/MyDialogFragment.java
  ru.adelbergis.secondapp.MyDialogFragment
  ru.adelbergis.secondapp.MyDialogFragment$1
  ru.adelbergis.secondapp.MyDialogFragment$2
  ru.adelbergis.secondapp.MyDialogFragment$3
+ru/adelbergis/secondapp/User.java
+ ru.adelbergis.secondapp.User
+ru/adelbergis/secondapp/AddUserActivity.java
+ ru.adelbergis.secondapp.AddUserActivity
+ ru.adelbergis.secondapp.AddUserActivity$1
+ru/adelbergis/secondapp/database/UserDbSchema.java
+ ru.adelbergis.secondapp.database.UserDbSchema
+ ru.adelbergis.secondapp.database.UserDbSchema$UserTable
+ ru.adelbergis.secondapp.database.UserDbSchema$UserTable$Cols
+ru/adelbergis/secondapp/UserActivity.java
+ ru.adelbergis.secondapp.UserActivity
+ ru.adelbergis.secondapp.UserActivity$1
+ ru.adelbergis.secondapp.UserActivity$2
 ru/adelbergis/secondapp/MainActivity.java
  ru.adelbergis.secondapp.MainActivity
  ru.adelbergis.secondapp.MainActivity$1
